@@ -1,6 +1,7 @@
 import webdriver as wdc
-import general_micro_tasks as general
+from tasks import general_micro_tasks as general
 
+# First page :-
 def pressAddItemBuyMe(driver):
     wdc.find_clickable_element(driver, "plusSign", True).click()
 
@@ -28,3 +29,11 @@ def pressBuyMeSelectProductImageButton(productImageButton):
 def pressBuyMeCancelProductButton(productCancelButton):
     productCancelButton.click()
     general.getPictureFromDevice()
+
+def checkIfNoItem(driver):
+    return wdc.find_Elements(driver, "No Item On Cart")
+
+# Second page :-
+
+# Third page :-
+

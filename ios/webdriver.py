@@ -35,3 +35,9 @@ def find_clickable_element(driver, id, withWait = False):
 
 def find_Elements(driver, id):
     return driver.find_elements(AppiumBy.ACCESSIBILITY_ID, id)
+
+def check_Element(driver, id):
+    if driver.find_element(AppiumBy.ACCESSIBILITY_ID, id):
+        return True
+    else:
+        return False

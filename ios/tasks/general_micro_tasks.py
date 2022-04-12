@@ -13,7 +13,7 @@ def selectTripType(driver, isOneWay = True):
         wdc.find_clickable_element(driver, "Round Trip", True).click()
 
 def getCurrentLocation(driver):
-    wdc.find_clickable_element(driver, "Current Location Button", True).click()
+    wdc.find_clickable_element(driver, "gpsCircle", True).click()
 
 def pressHomeButton(driver):
     wdc.find_clickable_element(driver, "home", True).click()
@@ -31,3 +31,10 @@ def photosPremission(driver):
 
 def pressContinueButton(driver):
     wdc.find_clickable_element(driver, "Continue", True).click()
+
+def selectSelfContact(driver):
+    wdc.find_clickable_element(driver, "You", True).click()
+
+def clickRequestSent(driver):
+    wdc.find_clickable_element(driver, "Request sent successfully", True).click()
+
