@@ -10,3 +10,19 @@
 # Get all notifications list
 
 # Implement deleting photos in buy me
+
+# How to run un parallel
+
+# CI/CD
+
+# Run on multiple devices and browsers (Consider cloud)
+
+# Check time for all the tests
+
+# Conform to unit-service-ui desing
+
+# Design patterns
+
+# Reporting
+
+
