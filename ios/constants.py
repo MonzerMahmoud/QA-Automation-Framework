@@ -14,3 +14,5 @@ PORT = "4723"
 HOST = "localhost"
 ROOT = "/wd/hub"
 SERVER_URL = "http://" + HOST + ":" + PORT + ROOT
+
+TOKEN = "TnAIsQp7r3FWgIe6LmSY-k2W_5BIjtGSnq0zSB_6bw01"
